@@ -15,4 +15,4 @@ Note : This part is commented out in the code
 
 - Failed to pass color for the skill-tag from another array
 
-Checkout my solution on codeSandbox 👉 [Profile Card Solution]("https://codesandbox.io/s/profilecard-challenge1-ldghwc")
+Checkout my solution on codeSandbox 👉 [Profile Card Solution](https://codesandbox.io/s/profilecard-challenge1-ldghwc)
