@@ -11,6 +11,8 @@ visit here 👉 [Date Counter Challenge](https://dvkwk4.csb.app/)
 
 <img src="https://i.ibb.co/LZ4mYF2/Screenshot-2023-06-12-234712.png" alt="Screenshot-2023-06-12-234712" border="0">
 
+<img src="https://i.ibb.co/fMhTGYY/Screenshot-2023-06-12-234712.png" alt="Screenshot-2023-06-12-234712" border="0">
+
 <br>
 
 ### Functionality:
