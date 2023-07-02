@@ -32,38 +32,27 @@ export default function App() {
             <div className={step >= 3 ? "active" : ""}>3</div>
           </div>
 
-          <StepMessage step={step}>{messages[step - 1]}</StepMessage>
+          <p className="message">
+            {" "}
+            Step {step}: {messages[step - 1]}
+          </p>
 
           <div className="buttons">
-            <Button bgcolor="#7950F2" textcolor="#fff" onClick={handlePrevious}>
-              <span>👈</span> Previous
-            </Button>
-            <Button bgcolor="#7950F2" textcolor="#fff" onClick={handleNext}>
-              Next <span>👉</span>
-            </Button>
+            <button
+              style={{ backgroundColor: "#7950F2", color: "#fff" }}
+              onClick={handlePrevious}
+            >
+              Previous
+            </button>
+            <button
+              style={{ backgroundColor: "#7950F2", color: "#fff" }}
+              onClick={handleNext}
+            >
+              Next
+            </button>
           </div>
         </div>
       )}
     </>
-  );
-}
-// children prop -> helping components make resusable
-function Button({ bgcolor, textcolor, onClick, children }) {
-  return (
-    <button
-      style={{ backgroundColor: bgcolor, color: textcolor }}
-      onClick={onClick}
-    >
-      {children}
-    </button>
-  );
-}
-
-function StepMessage({ step, children }) {
-  return (
-    <div className="message">
-      <h3>Step {step}: </h3>
-      {children}
-    </div>
   );
 }
